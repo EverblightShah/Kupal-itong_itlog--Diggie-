@@ -1,0 +1,133 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+    
+    int score = 0, answer;
+    char name[50];
+    float average_score;
+    
+    printf("Enter Student's Name: ");
+    scanf("%s", name);
+    
+    printf("Enter your answer for question 1: ");
+    scanf("%d", &answer);
+    switch(answer){
+        case 1:
+            score += 1;
+            break;
+        case 2:
+            score += 2;
+            break;
+        case 3:
+            score += 3;
+            break;
+        case 4:
+            score += 4;
+            break;
+        case 5:
+            score += 5;
+            break;
+        default:
+            printf("%d IS OUT OF RANGE! YOUR ANSWER FOR THIS QUESTION WILL BE ZERO\n", answer);
+            break;
+    }
+    
+    printf("Enter your answer for question 2: ");
+    scanf("%d", &answer);
+    switch(answer){
+        case 1:
+            score += 1;
+            break;
+        case 2:
+            score += 2;
+            break;
+        case 3:
+            score += 3;
+            break;
+        case 4:
+            score += 4;
+            break;
+        case 5:
+            score += 5;
+            break;
+        default:
+            printf("%d IS OUT OF RANGE! YOUR ANSWER FOR THIS QUESTION WILL BE ZERO\n", answer);
+            break;
+    }
+    
+    printf("Enter your answer for question 3: ");
+    scanf("%d", &answer);
+    switch(answer){
+        case 1:
+            score += 1;
+            break;
+        case 2:
+            score += 2;
+            break;
+        case 3:
+            score += 3;
+            break;
+        case 4:
+            score += 4;
+            break;
+        case 5:
+            score += 5;
+            break;
+        default:
+            printf("%d IS OUT OF RANGE! YOUR ANSWER FOR THIS QUESTION WILL BE ZERO\n", answer);
+            break;
+    }
+    
+    printf("Enter your answer for question 4: ");
+    scanf("%d", &answer);
+    switch(answer){
+        case 1:
+            score += 1;
+            break;
+        case 2:
+            score += 2;
+            break;
+        case 3:
+            score += 3;
+            break;
+        case 4:
+            score += 4;
+            break;
+        case 5:
+            score += 5;
+            break;
+        default:
+            printf("%d IS OUT OF RANGE! YOUR ANSWER FOR THIS QUESTION WILL BE ZERO\n", answer);
+            break;
+    }
+    
+    printf("Enter your answer for question 5: ");
+    scanf("%d", &answer);
+    switch(answer){
+        case 1:
+            score += 1;
+            break;
+        case 2:
+            score += 2;
+            break;
+        case 3:
+            score += 3;
+            break;
+        case 4:
+            score += 4;
+            break;
+        case 5:
+            score += 5;
+            break;
+        default:
+            printf("%d IS OUT OF RANGE! YOUR ANSWER FOR THIS QUESTION WILL BE ZERO\n", answer);
+            break;
+    }
+    
+    average_score = (float)score / 5;
+    printf("\n%s, Your Total Score is %d and Your Average Score is %.1f", name, score, average_score);
+    
+    return 0;
+}
+

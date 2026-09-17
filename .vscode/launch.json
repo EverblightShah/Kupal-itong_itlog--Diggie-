@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Diggie",
+            "request": "launch",
+            "mainClass": "Diggie",
+            "projectName": "Program na walang kwenta_49c9f13a"
+        },
+        {
+            "type": "java",
+            "name": "DiggieDemo",
+            "request": "launch",
+            "mainClass": "DiggieDemo",
+            "projectName": "Program na walang kwenta_49c9f13a"
+        }
+    ]
+}
